@@ -659,7 +659,7 @@ display: flex;
     font-size: 2.2rem;
 }
 .card-box-body p {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 .card-box-body span{  font-size: 1.6rem; color: #b8b8b8;}
 
@@ -989,6 +989,26 @@ section.youtube img{ height: 500px;}
     margin-top: 13.5rem;
 }
 a{ text-decoration: none;}
+section.blogs {
+    width: 100%;
+    padding: 3rem 0; background-color: var(--white);
+}
+.select-area {
+    width: 100%;
+    padding: 3rem 0;
+}
+.select-1,.select-2{ border:none; color:var(--theme);  font-size: 2rem; margin-right: 3rem;}
+.select-1:focus,.select-2:focus,.select-1:focus-visible,.select-2:focus-visible{
+    border: none; outline: none;
+}
+.border-rad-10{ border-radius: 10px;}
+span.foo-title ,span.foo-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    padding: 1rem 1.3rem 0;
+}
+span.foo-title b{ font-size: 1.6rem;}
 @media (max-width:700px) {
     .navbar-collapse {
         padding-bottom: 2rem;
