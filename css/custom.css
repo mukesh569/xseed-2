@@ -8,7 +8,6 @@
          url('../fonts/aileron-regular-webfont.svg#aileronregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 @font-face {
     font-family: 'aileronbold';
@@ -18,10 +17,6 @@
     font-style: normal;
 
 }
-
-
-
-
 @font-face {
     font-family: 'aileronheavy';
     src: url('aileron.heavy-webfont.woff2') format('woff2'),
@@ -30,10 +25,6 @@
     font-style: normal;
 
 }
-
-
-
-
 @font-face {
     font-family: 'aileronlight';
     src: url('aileron.light-webfont.woff2') format('woff2'),
@@ -42,10 +33,6 @@
     font-style: normal;
 
 }
-
-
-
-
 @font-face {
     font-family: 'aileronsemibold';
     src: url('aileron.semibold-webfont.woff2') format('woff2'),
@@ -54,10 +41,6 @@
     font-style: normal;
 
 }
-
-
-
-
 @font-face {
     font-family: 'aileronthin';
     src: url('aileron.thin-webfont.woff2') format('woff2'),
@@ -66,10 +49,6 @@
     font-style: normal;
 
 }
-
-
-
-
 @font-face {
     font-family: 'aileronultralight';
     src: url('aileron.ultralight-webfont.woff2') format('woff2'),
@@ -78,14 +57,8 @@
     font-style: normal;
 
 }
-::selection {
-    color: #D16767;
-    background: #ffdedb;
-}
-
-
-*{ margin:0; padding: 0; box-sizing: border-box;
-   }
+::selection {  color: #D16767;   background: #ffdedb;}
+*{ margin:0; padding: 0; box-sizing: border-box; }
 html{ font-size: 62.5%;}
 :root{
     --white:#fff;
@@ -95,18 +68,10 @@ html{ font-size: 62.5%;}
     --font-color:#777777;
     --para:#525252;
 }
-
-
-body{ background-color: rgba(243, 243, 243, 1);
-    font-family: 'aileronregular';
-}
+body{ background-color: rgba(243, 243, 243, 1); font-family: 'aileronregular';}
 img.logo{ height: 8rem; width: auto;}
-.navbar-nav .nav-link ,.dropdown-item { 
-    text-transform: capitalize;
-    font-weight: 400;
-    color:var(--font-color);    
-    font-size: 1.6rem;
-}
+.navbar-nav .nav-link ,.dropdown-item { text-transform: capitalize;font-weight: 400;
+    color:var(--font-color);   font-size: 1.6rem;}
 .navbar-nav .nav-item{ margin: 0 .4rem;}
 .btn-outline,.btn-cover{ font-size: 1.6rem; border-radius: 8px; padding:.6rem 1rem; }
 .btn-outline{
@@ -681,11 +646,12 @@ display: flex;
 }
 .left-content h1 {
     color: var(--black);
-    font-size: 4.8rem;
+    font-size: 4.2rem;
     font-weight: 600;
 }
 .left-content h1 span{ color: var(--theme);}
 .left-content p{ font-size: 2.4rem; color: var(--black);}
+.left-content p b{ color: var(--theme);}
 .right-content {
     width: 65%;
     display: flex;
@@ -1009,6 +975,100 @@ span.foo-title ,span.foo-info {
     padding: 1rem 1.3rem 0;
 }
 span.foo-title b{ font-size: 1.6rem;}
+.edit-banner{ background-size: 100% 100%; max-height:450px; min-height: 440px; }
+.edit-banner img {
+    width: 43%;
+    height: auto;
+   
+    margin-top: 5rem;
+}
+.under-stand{ width: 100%; background-color: var(--theme);  padding: 4rem 0 0;}
+.info-section{ background-color: var(--white); border-radius: 1rem; padding: 4rem 10rem 5rem; }
+.info-section h2{ font-size: 5rem; }
+.info-section p{ font-size: 2rem; padding-bottom: 2rem; }
+.theme-btn{ padding: 1.4rem 2rem; background: var(--theme); color: var(--white);
+border-radius: 10px; font-size: 1.7rem; border: none; outline: none; 
+text-transform: uppercase; }
+.under-stand-post {
+    width: 100%;
+    margin-top: 10rem;
+}
+.under-stand-post .spacing-con{color: var(--white);}
+.under-stand-post .spacing-con h3,.book-box h3{ font-size: 4rem; }
+.under-stand-post .spacing-con p,.book-box p{font-size: 2rem;}
+.us-pic{ width: 100%; }
+.book-box {
+    padding: 2rem 1rem;
+    width: 100%;
+}
+.us-pic img{ width: 100%; height: auto; }
+.book-box h3 {
+    font-size: 2.2rem;
+    color: var(--theme);
+    text-align: left;
+    font-weight: 600;
+    min-height: 55px;
+}
+.book-box p{font-size: 1.5rem;text-align: left;}
+.head_para3{
+    width: 100%;
+    padding: 7rem 15rem 2rem;
+
+}
+.v_card {
+    width: 100%;
+    background: var(--theme);
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.v_img {
+    width: 100%;
+}
+.v_info {
+    width: 100%;
+    height: 100%;
+}
+.v_info h4 {
+    padding-top: 3rem;
+    color: var(--white);
+    font-size: 2rem;
+    text-align: left;
+    text-transform: capitalize;
+}
+.v_info p{ color: var(--white); font-size: 1.5rem; text-align: left; }
+
+
+.head_para h2.head {
+    width: 100%;
+    font-size: 2.5rem;
+    color: var(--black);
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+.head_para p.head_p{font-size: 1.6rem;}
+.v-card h4{ width:100%; font-size: 1.8rem; padding: 2rem 0;}
+ p.v_c {
+    font-size: 1.7rem;
+}
+.app{ width:100%;  padding: 4rem 8rem 2rem;  margin: 2rem 0;
+    border-radius: 10px;  
+    background-color: rgba(243, 243, 243, 1);}
+    .app img{ width: 60%; }
+    .app_left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+    .app-right{
+        display: flex;
+        
+        justify-content: end;
+        height: 100%;
+    }
+    .app_left h1{ font-weight: bold; font-size: 3rem; margin-bottom: 3rem;}
+    .app_left h1 span{ color: var(--theme);}
+/* responsive query */
 @media (max-width:700px) {
     .navbar-collapse {
         padding-bottom: 2rem;
